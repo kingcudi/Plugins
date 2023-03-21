@@ -88,7 +88,7 @@ public class OneClickMortMyreFungusPlugin extends Plugin {
                 return;
             }
 
-            if (client.getWidget(370, 20) != null && client.getWidget(370, 22).getChild(3) != null) {
+            if (client.getWidget(370, 22) != null && client.getWidget(370, 22).getChild(3) != null) {
                 event.setMenuEntry(callButlerMES());
                 return;
             }
