@@ -88,7 +88,7 @@ public class OneClickMortMyreFungusPlugin extends Plugin {
                 return;
             }
 
-            if (client.getWidget(370, 20) != null && client.getWidget(370, 20).getChild(3) != null) {
+            if (client.getWidget(370, 20) != null && client.getWidget(370, 22).getChild(3) != null) {
                 event.setMenuEntry(callButlerMES());
                 return;
             }
@@ -194,7 +194,7 @@ public class OneClickMortMyreFungusPlugin extends Plugin {
     }
 
     private MenuEntry callButlerMES() {
-        return createMenuEntry(1, MenuAction.CC_OP, -1, 24248339, false);
+        return createMenuEntry(1, MenuAction.CC_OP, -1, 24248342, false);
     }
 
     private MenuEntry sendToBankMES() {
